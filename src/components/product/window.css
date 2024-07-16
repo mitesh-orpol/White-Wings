@@ -1,0 +1,77 @@
+.window-cata{
+    margin-top: 50px;
+}
+.window-cata h2{
+    color: #1C3F97;
+    font-weight: 800;
+    font-size: 30px;
+}
+.window-cata h6{
+    color: #252525;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.window-cata .custom-hr{
+    width: 50%;
+}
+.window-cata .custom-hr hr{
+    opacity: 1;
+    border-top: 1px solid #797979;
+}
+.window-cata h1{
+    font-weight: 700;
+    font-size: 55px;
+}
+.window-cata h3{
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.window-cata p{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.window-cata .over_view{
+    margin-top: 50px;
+}
+.window-cata .over_view h4{
+    font-size: 35px;
+    font-weight: 500;
+}
+.window-cata .over_view .custom-hr{
+    width: 22%;
+}
+.window-cata .over_view .custom-hr hr{
+    opacity: 1;
+    border-top: 2px solid #1C3F97;
+    margin: 0;
+}
+.window-cata .over_view hr{
+    margin: 0;
+}
+.window-cata .over_view h5{
+    font-size: 21px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.window-cata .over_view li{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 17px;
+}
+.window-cata .over_view .table_show{
+    margin-top: 50px;
+}
+.window-cata .over_view .table_show .table thead th{
+    background-color: #1C3F97;
+    color: #fff;
+    font-size: 22px;
+}
+.window-cata .over_view .table_show .table tbody th{
+    color: #1C3F97;
+}
+.window-cata .over_view .table_show .table tbody i{
+    color: #1C3F97;
+}

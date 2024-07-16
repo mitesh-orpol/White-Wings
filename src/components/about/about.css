@@ -1,0 +1,1066 @@
+/* playfair font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.playfair {
+    font-family: "Playfair Display", serif;
+}
+/* roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Mogra&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.roboto{
+    font-family: "Roboto", sans-serif;
+}
+
+/* popins font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.poppins{
+    font-family: "Poppins", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.outfit {
+    font-family: "Outfit", sans-serif;
+}
+
+.about-page{
+    background-image: url(../../../public/images/about/bg.png);
+    width: 100%;
+    object-fit: contain;
+    background-size: cover;
+    /* padding-top: 30px; */
+    padding-bottom: 200px;
+}
+.about-page h1{
+    padding-top: 300px;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+
+/* about seaction start */
+.about{
+    margin-top: 80px;
+}
+.about .main-img img{
+    max-width: 100%;
+}
+.about .about-text h5{ 
+    color: #1C3F97;
+    font-size: 18px;
+    font-weight: 700;
+}
+.about .about-text .custom-hr {
+    width: 13%;
+    /* margin: 0 auto;
+    text-align: center; */
+}
+.about .about-text hr {
+    border-top: 2px solid #1C3F97;
+    opacity: 1;
+    margin: 0;
+}
+.about .about-text h2{
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 47px;
+}
+.about .about-text h2 span{
+    color: #0A5096;
+}
+.about .about-text p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.about .about-text .box{
+    background-color: #E5E5E5;
+    padding: 10px;
+    margin-top: 30px;
+}
+.about .about-text .box .right{
+    display: flex;
+    gap: 20px;
+}
+.about .about-text .box .right .check{
+    background-color: #0A5096;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+.about .about-text .box .right .text h6{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 11px;
+}
+/* about seaction end */
+
+
+/* our doors seaction start */
+.our-door{
+    margin-top: 100px;
+}
+.our-door .cret{
+    margin-top: 30px;
+}
+.our-door .cret h5{
+    color: #0A5096;
+    font-size: 18px;
+    font-weight: 700;
+}
+.our-door .cret .custom-hr {
+    width: 83%;
+    /* margin: 0 auto;
+    text-align: center; */
+}
+.our-door .cret hr {
+    border-top: 2px solid #1C3F97;
+    opacity: 1;
+    margin: 0;
+}
+.our-door .cret h2{
+    font-size: 39px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.our-door .cret p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: black;
+}
+.our-door .cret h6{
+    font-size: 19px;
+    font-weight: 500;
+    color: #1C3F97;
+    margin-top: 20px;
+}
+.our-door .door-img img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.our-door .own .check h6 i{
+    background-color: #0A5096;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.our-door .own .check h6{
+    color: #0A5096;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+/* our doors seaction end */
+
+
+
+
+
+
+
+
+
+
+
+
+/* .gallery {
+    --s: 50px; 
+    
+    display: grid;
+    height: 600px;
+    gap: 8px;
+    grid-auto-flow: column;
+    place-items: center;
+    margin-top: 50px;
+}
+.gallery > img {
+    width: 0;
+    min-width: calc(100% + var(--s));
+    height: 0;
+    min-height: 100%;
+    object-fit: cover;
+    clip-path: polygon(var(--s) 0,100% 0,calc(100% - var(--s)) 100%,0 100%);
+    cursor: pointer;
+    transition: .5s;
+}
+.gallery > img:hover {
+    width: 10vw; 
+}
+.gallery > img:first-child {
+    min-width: calc(100% + var(--s)/2);
+    place-self: start;
+    clip-path: polygon(0 0,100% 0,calc(100% - var(--s)) 100%,0 100%);
+}
+.gallery > img:last-child {
+    min-width: calc(100% + var(--s)/2);
+    place-self: end;
+    clip-path: polygon(var(--s) 0,100% 0,100% 100%,0 100%);
+} */
+    
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 0;
+  }
+  
+  .gallery .img-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .gallery .img-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery .img-container:hover img {
+    transform: scale(1.1); 
+  }
+  
+  .gallery .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    justify-content: center; 
+    align-items: center; 
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 20px; 
+    box-sizing: border-box; 
+    
+  }
+  
+  .gallery .overlay h3 {
+    padding-top: 90%;
+  }
+  
+
+  .gallery .img-container:hover .overlay {
+    opacity: 1; 
+  }
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* why people seaction start */
+.why-people{
+    margin-top: 100px;
+}
+.why-people h5{
+    color: #0A5096;
+    font-size: 18px;
+    font-weight: 600;
+}
+.why-people .custom-hr {
+    width: 35%;
+    /* margin: 0 auto;
+    text-align: center; */
+}
+.why-people hr {
+    border-top: 2px solid #1C3F97;
+    opacity: 1;
+    margin: 0;
+}
+.why-people h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: black;
+}
+.why-people p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.why-people .expo{
+    margin-top: 50px;
+}
+.why-people .expo a{
+    text-decoration: none;
+    padding: 13px 25px;
+    background-color: #0B4F96;
+    color: #fff;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.why-people .why-img img{
+    max-width: 100%;
+}
+.why-people .why-img .shine {
+    position: relative;
+    overflow: hidden;
+}
+.why-people .why-img .shine::before {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+    content: "";
+    display: block;
+    height: 100%;
+    left: -75%;
+    position: absolute;
+    top: 0;
+    transform: skewX(-25deg);
+    width: 50%;
+    z-index: 2;
+}
+.why-people .why-img .shine:hover::before, .shine:focus::before {
+    animation: shine 0.85s;
+}
+@keyframes shine {
+    100% {
+        left: 125%;
+   }
+}
+/* why people seaction end */
+
+/* happy client seaction start */
+.happy-client{
+    background-color: #E4E4E4;
+    padding: 40px;
+}
+.happy-client .nub{
+    text-align: center;
+}
+.happy-client .nub h1{
+    color: #0B4F96;
+    font-size: 70px;
+    font-weight: 700;
+}
+.happy-client .nub h3{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+/* happy client seaction end */
+
+/* about-services section start */
+.service-about{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.service-about h5{
+    color: #0A5096;
+    font-size: 18px;
+    font-weight: 700;
+}
+.service-about .custom-hr {
+    width: 20%;
+    /* margin: 0 auto;
+    text-align: center; */
+}
+.service-about hr {
+    border-top: 2px solid #1C3F97;
+    opacity: 1;
+    margin: 0;
+}
+.service-about h2{
+    font-size: 39px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.service-about p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.service-about .form-control{
+    background-color: #EDECEC;
+    padding: 25px;
+}
+.service-about form button{
+    width: 100%;
+    border: none;
+    background-color: #0A5096;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.service-about .service-start-img{
+    background: linear-gradient(180deg, rgba(43, 60, 102, 0) -42.16%, rgba(27, 41, 78, 0.76) 97.1%), url(/public/images/about/about-service.png);
+    padding: 20px;
+    width: 100%;
+    object-fit: contain;
+    background-size: cover;
+    border-radius: 13px;
+}
+.service-about .service-start-img h3{
+    padding-top: 250px;
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+}
+.service-about .service-start-img .check-main{
+    padding: 20px 50px;
+}
+.service-about .service-start-img .check-main h6{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+}
+.service-about .service-start-img .check-main h6 i{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    color: #0A5096;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    font-size: 15px;
+}
+.service-about .service-start-img .box{
+    display: flex;
+    /* text-align: center; */
+    padding: 15px;
+    background-color: #fff;
+    width: 300px;
+    margin: 0 auto;
+    gap: 20px;
+}
+.service-about .service-start-img .box .icon i{
+    width: 50px;
+    height: 50px;
+    background-color: #0A5096;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+}
+.service-about .service-start-img .box .numbe h5{
+    color: #0A5096;
+    font-size: 19px;
+    font-weight: 600;
+}
+.service-about .service-start-img .box .numbe a{
+    text-decoration: none;
+    color: #0A5096;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 0;
+}
+/* about-services section end */
+
+
+
+.image-container {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-container:hover .image-text {
+    opacity: 1;
+  }
+
+
+@media screen and (max-width: 1399px) and (min-width: 1200px){
+    .about-page{
+        padding-bottom: 180px;
+    }
+    .about-page h1{
+        padding-top: 250px;
+        font-size: 70px;    
+    }
+    .our-door .cret h6 {
+        font-size: 16px;
+    }
+    .our-door .own .check h6{
+        font-size: 14px;
+    }
+    .gallery .overlay h3 {
+        padding-top: 59%;
+    }
+    .why-people h1 {
+        font-size: 45px;
+        margin-top: 15px;
+    }
+}
+  
+@media screen and (max-width: 1199px) and (min-width: 1023px){
+    .about .about-text h2 {
+        margin-top: 10px;
+        font-size: 35px;
+    }
+    .about .about-text p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .about .about-text .box {
+        margin-top: 11px;
+    }
+    .our-door .cret h5{
+        font-size: 15px;
+    }
+    .our-door .cret h2 {
+        font-size: 33px;
+        margin-top: 10px;
+    }
+    .our-door .cret p{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .our-door .cret h6 img{
+        width: 20px;
+        height: 10px;
+    }
+    .our-door .cret h6{
+        display: none;
+    }
+    .our-door .own .check h6{
+        font-size: 15px;
+        margin-top: 40px;
+    }
+    .our-door .own .check h6 i {
+        width: 18px;
+        height: 18px;
+        line-height: 18px;
+        margin-right: 0px;
+    }
+    .why-people h1{
+        font-size: 35px;
+        margin-top: 5px;
+    }
+    .why-people p {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 6px;
+    }
+    .why-people .expo {
+        margin-top: 35px;
+    }
+    .happy-client .nub h3 {
+        font-size: 22px;
+    }
+    .service-about .service-start-img h3 {
+        padding-top: 268px;
+        font-size: 28px;
+    }
+    .service-about .service-start-img .check-main h6 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 992px){
+    .about-page h1{
+        padding-top: 250px;
+        font-size: 70px;
+    }
+    .about .about-text h2 {
+        margin-top: 22px;
+        font-size: 40px;
+    }
+    .about .about-text p {
+        font-size: 17px;
+        margin-top: 11px;
+    }
+    .about .about-text .box{
+        margin-top: 18px;
+    }
+    .our-door{
+        margin-bottom: 50px;
+    }
+    .our-door .col-lg-4{
+        width: 50%;
+    }
+    .our-door .col-lg-6{
+        width: 50%;
+    }
+    .our-door .cret h5{
+        font-size: 15px;
+    }
+    .our-door .cret .custom-hr {
+        width: 64%;
+    }
+    .our-door .cret h2 {
+        font-size: 30px;
+        margin-top: 15px;
+    }
+    .our-door .cret p{
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .our-door .cret .err .col-lg-6{
+        width: 50%;
+    }
+    .our-door .own .check {
+        display: none;
+    }
+    .gallery .overlay h3 {
+        padding-top: 40%;
+        font-size: 20px;
+    }
+    .gallery .overlay p{
+        font-size: 14px;
+    }
+    .why-people h1 {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .why-people p {
+        font-size: 16px;
+        margin-top: 4px;
+    }
+    .why-people .expo {
+        margin-top: 20px;
+    }
+    .happy-client{
+        padding: 30px;
+    }
+    .happy-client .nub h1 {
+        font-size: 55px;
+    }
+    .happy-client .nub h3 {
+        font-size: 20px;
+    }
+    .service-about .service-start-img h3{
+        font-size: 25px;
+    }
+    .service-about h2{
+        margin-top: 20px;
+        font-size: 35px;
+    }
+    .service-about p {
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 15px;
+    }
+    .service-about .service-start-img .check-main{
+        padding: 20px 10px;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .abc .header{
+        top: 0;
+    }
+    .about-page{
+        padding-bottom: 150px;
+    }
+    .about-page h1{
+        padding-top: 250px;
+        font-size: 60px;
+    }
+    .about .col-lg-6{
+        width: 50%;
+    }
+    .about .about-text h2{
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .about .about-text p {
+        font-size: 17px;
+        margin-top: 17px;
+    }
+    .about .about-text .box{
+        display: none;
+    }
+    .our-door{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .our-door .cret .custom-hr{
+        width: 50%;
+    }
+    .our-door .cret .err .col-lg-6{
+        width: 50%;
+    }
+    .our-door .own .check {
+        display: none;
+    }
+    .gallery .overlay{
+        padding: 5px;
+    }
+    .gallery .overlay h3 {
+        padding-top: 30%;
+        font-size: 18px;
+    }
+    .gallery .overlay p{
+        font-size: 13px;
+    }
+    .why-people {
+        margin-top: 50px;
+    }
+    .why-people h1 {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .why-people p {
+        font-size: 16px;
+        margin-top: 4px;
+    }
+    .why-people .expo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .happy-client{
+        padding: 30px;
+    }
+    .happy-client .col-lg-3{
+        width: 50%;
+    }
+    .happy-client .nub h1 {
+        font-size: 55px;
+        margin-top: 20px;
+    }
+    .happy-client .nub h3 {
+        font-size: 20px;
+    }
+    .service-about {
+        margin-top: 50px;
+    }
+    .service-about form button{
+        margin-bottom: 30px;
+    }
+    .service-about .service-start-img .check-main{
+        padding: 20px 40px;
+        
+    }
+    .service-about .service-start-img .check-main .col-lg-6{
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 767px) and (min-width: 426px){
+    .abc .header{
+        top: 0;
+    }
+    .about-page{
+        padding-bottom: 150px;
+    }
+    .about-page h1{
+        padding-top: 200px;
+        font-size: 60px;
+    }
+    .about .about-text h5{
+        margin-top: 30px;
+    }
+    .about .about-text h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+    .about .about-text p {
+        font-size: 17px;
+        margin-top: 17px;
+    }
+    .about-text .col-lg-6 {
+        width: 50%;
+    }
+    .our-door {
+        margin-top: 50px;
+    }
+    .our-door .cret .err .col-lg-6{
+        width: 50%;
+    }
+    .our-door .door-img img{
+        margin-top: 50px;
+    }
+    .gallery .overlay{
+        padding: 5px;
+    }
+    .gallery .overlay h3 {
+        padding-top: 20%;
+        font-size: 18px;
+    }
+    .gallery .overlay p{
+        font-size: 13px;
+    }
+    .why-people {
+        margin-top: 50px;
+    }
+    .why-people h1 {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .why-people p {
+        font-size: 16px;
+        margin-top: 4px;
+    }
+    .why-people .expo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .happy-client{
+        padding: 30px;
+    }
+    .happy-client .col-lg-3{
+        width: 50%;
+    }
+    .happy-client .nub h1 {
+        font-size: 55px;
+    }
+    .happy-client .nub h3 {
+        font-size: 20px;
+    }
+    .service-about {
+        margin-top: 50px;
+    }
+    .service-about form button{
+        margin-bottom: 30px;
+    }
+    .service-about .service-start-img .check-main{
+        padding: 20px 40px;
+        
+    }
+    .service-about .service-start-img .check-main .col-lg-6{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 425px) and (min-width: 376px){
+    .abc .header{
+        top: 0;
+    }
+    .about-page{
+        padding-bottom: 130px;
+    }
+    .about-page h1{
+        padding-top: 200px;
+        font-size: 45px;
+    }
+    .about .about-text h5{
+        margin-top: 30px;
+    }
+    .about .about-text h2{
+        margin-top: 10px;
+        font-size: 35px;
+    }
+    .about .about-text p {
+        font-size: 17px;
+        margin-top: 17px;
+    }
+    .about-text .col-lg-6 {
+        width: 50%;
+    }
+    .about .about-text .box{
+        padding: 8px;
+    }
+    .about .about-text .box .right .check{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .our-door {
+        margin-top: 50px;
+    }
+    .our-door .cret h2{
+        font-size: 35px;
+    }
+    .our-door .cret .err .col-lg-6{
+        width: 50%;
+    }
+    .our-door .cret h6{
+        font-size: 18px;
+    }
+    .our-door .door-img img{
+        margin-top: 50px;
+    }
+    .gallery{
+        display: block;
+    }
+    .why-people {
+        margin-top: 50px;
+    }
+    .why-people h1 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    .why-people p {
+        font-size: 16px;
+        margin-top: 4px;
+    }
+    .why-people .expo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .happy-client{
+        padding: 30px;
+    }
+    .happy-client .col-lg-3{
+        width: 50%;
+    }
+    .happy-client .nub h1 {
+        font-size: 45px;
+    }
+    .happy-client .nub h3 {
+        font-size: 16px;
+    }
+    .service-about {
+        margin-top: 50px;
+    }
+    .service-about form button{
+        margin-bottom: 30px;
+    }
+    .service-about .service-start-img .check-main{
+        padding: 20px 40px;
+        
+    }
+    .service-about .service-start-img h3{
+        font-size: 25px;
+    }
+    
+}
+
+@media screen and (max-width: 375px) and (min-width: 300px){
+    .abc .header{
+        top: 0;
+    }
+    .about-page{
+        padding-bottom: 130px;
+    }
+    .about-page h1{
+        padding-top: 200px;
+        font-size: 45px;
+    }
+    .about .about-text h5{
+        margin-top: 30px;
+    }
+    .about .about-text h2{
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .about .about-text p {
+        font-size: 17px;
+        margin-top: 17px;
+    }
+    .about-text .col-lg-6 {
+        width: 50%;
+    }
+    .about .about-text .box{
+        padding: 8px;
+    }
+    .about .about-text .box .right .check{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .about .about-text .box .right .text h6{
+        font-size: 15px;
+    }
+    .our-door {
+        margin-top: 50px;
+    }
+    .our-door .cret h5{
+        font-size: 15px;
+    }
+    .our-door .cret h2{
+        font-size: 30px;
+    }
+    .our-door .cret .err .col-lg-6{
+        width: 50%;
+    }
+    .our-door .cret h6{
+        font-size: 15px;
+    }
+    .our-door .door-img img{
+        margin-top: 50px;
+    }
+    .gallery{
+        display: block;
+    }
+    .why-people {
+        margin-top: 50px;
+    }
+    .why-people .custom-hr {
+        width: 62%;
+    }
+    .why-people h1 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .why-people p {
+        font-size: 16px;
+        margin-top: 4px;
+    }
+    .why-people .expo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .happy-client{
+        padding: 30px;
+    }
+    .happy-client .col-lg-3{
+        width: 50%;
+    }
+    .happy-client .nub h1 {
+        font-size: 40px;
+    }
+    .happy-client .nub h3 {
+        font-size: 14px;
+    }
+    .service-about {
+        margin-top: 50px;
+    }
+    .service-about .custom-hr {
+        width: 34%;
+    }
+    .service-about h2 {
+        font-size: 36px;
+        margin-top: 15px;
+    }
+    .service-about p {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    .service-about form button{
+        margin-bottom: 30px;
+    }
+    .service-about .service-start-img .check-main{
+        padding: 20px 40px;
+        
+    }
+    .service-about .service-start-img h3{
+        font-size: 23px;
+    }
+}
